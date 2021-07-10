@@ -1,0 +1,54 @@
+.box {
+    width:100%;
+    /* height:240px; */
+    background-color:#00cba9;
+  }
+  .box > p {
+    font-size:40px;
+    font-family:'Poppins';
+    color:white;
+    font-weight:700;
+    
+    text-align:center;
+   padding-top:30px;
+  }
+  .admit_btn{
+    width:300px;
+    height:60px;
+    border-radius:40px;
+    font-size:25px;
+    border:none;
+    background-color:white;
+    color:#00cba9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+    
+  }
+
+  .admit_btn:hover{
+    background-color:lightgrey;
+    cursor:pointer;
+
+  }
+  
+  .box{
+   align-items:center;
+    justify-content:center;
+  }
+  .home_img{
+    width: 600px;
+    margin-left:250px;
+    margin-top:45px;
+  
+  }
+  .curve_div{
+    margin-bottom:-200px;
+  }
+  .curvediv{
+    margin-bottom:-260px;
+  }
+  
+  

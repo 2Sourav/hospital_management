@@ -1,0 +1,51 @@
+.box {
+    width:100%;
+    height:200px;
+    background-color:#00cba9;
+  }
+  .box > p {
+    font-size:40px;
+    font-family:'Poppins';
+    color:black;
+    font-weight:700;
+    
+    text-align:center;
+   padding-top:30px;
+  }
+  .book_button{
+    width:300px;
+    height:60px;
+    border-radius:40px;
+    font-size:25px;
+    border:none;
+    background-color:white;
+    color:#00cba9;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration:none;
+  
+    
+  }
+  .book_button:hover{
+    background-color:lightgrey;
+    cursor:pointer;
+
+  }
+  
+  .box{
+   align-items:center;
+    justify-content:center;
+  }
+  
+
+  .curvediv > path {
+    z-index:2;
+  }
+  
+  .bed_img{
+    width: 600px;
+    margin-left:250px;
+    margin-top:45px;
+  
+  }

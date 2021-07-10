@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+  }
+  .details_flex{
+    display:flex;
+    align-items:center;
+    width:500px;
+    justify-content:space-between;
+    margin-top:40px;
+  }
+  
+  .details_flex input {
+    height:30px;
+    width:300px;
+    margin-left:20px;
+    border-radius:10px;
+    border:none;
+    
+    
+  }
+  .details_flex textarea {
+  
+    border-radius:10px;
+   
+    padding:1px;
+    border:none;
+    
+  }
+  
+  .details_flex > h5{
+    font-size:20px;
+    font-family:'Poppins';
+  }
+  
+  .form{
+    width:550px;
+    background-color:lightgrey;
+    padding:20px 60px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:50px;
+    border-radius:20px;
+    
+  }
+  
+  .form_button > button {
+    height:50px;
+    width:170px;
+    font-size:20px;
+    font-weight:700;
+    border-radius:40px;
+   
+    margin-top:60px;
+    background-color:lightseagreen;
+    color:white;
+    border:none;
+    margin-bottom:30px;
+    margin-left:200px;
+
+    
+    
+  }
+
+  .form_button > button:hover{
+      background-color:rgb(128, 223, 218);
+      cursor:pointer;
+    color:blue;
+  }
+  
+  .form > p {
+    color:red;
+    margin-top:5px;
+    font-weight:700;
+  }
+  
+  .star{
+    display:flex;
+  }
+  
+  .star_red{
+    color:red;
+  }
+  
+  .pease_enter_details{
+      padding-left:80px;
+  }
+  .req_fields{
+      padding-left:400px;
+  }
+
+
+/* .form_body{
+    height:100vh;
+    width:100%;
+    background-color:lightseagreen;
+} */
